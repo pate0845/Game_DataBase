@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "game-database-786",
+    "public": "dist/ng-video-game-db",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
